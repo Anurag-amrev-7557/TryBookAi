@@ -1,0 +1,33 @@
+.roadmap {
+    padding: 20px; 
+    margin-top: 40px; 
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem; 
+    margin: 0; 
+}
+
+@media screen and (max-width: 768px) {
+    .roadmap {
+        padding: 15px; 
+        margin-top: 30px; 
+    }
+
+    h2 {
+        font-size: 1.5rem; 
+    }
+}
+
+/* Responsive Styles for Small Screens */
+@media screen and (max-width: 480px) {
+    .roadmap {
+        padding: 10px; 
+        margin-top: 20px; 
+    }
+
+    h2 {
+        font-size: 1.25rem; 
+    }
+}

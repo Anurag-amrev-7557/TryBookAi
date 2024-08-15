@@ -1,0 +1,174 @@
+#logo {
+    height: 43px; 
+    width: 50px;
+}
+
+.logo-icon {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: #042D92;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    transform: scale(0.85);
+}
+
+header span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e4dde3;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: all 0.5s ease;
+}
+
+nav a:hover {
+    color: #943EE5;
+}
+
+#login {
+    transform: scale(0.8);
+}
+
+.bn632-hover, .logo-icon-hover {
+    width: 165px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    height: 45px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover, .logo-icon-hover:hover {
+    background-position: 100% 0;
+}
+
+.bn632-hover:focus, .logo-icon-hover:focus {
+    outline: none;
+}
+
+.bn632-hover.bn26, .logo-icon-hover.logo-icon {
+    background-image: linear-gradient(
+        to right,
+        #206380,
+        #4481eb,
+        #18abdb,
+        #3f86ed
+    );
+    box-shadow: 0 4px 35px 0 rgba(65, 132, 234, 0.65);
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    #logo {
+        height: 36px;
+        width: 40px;
+    }
+
+    .logo-icon {
+        height: 24px;
+        width: 24px;
+        margin-right: 8px;
+    }
+
+    header span {
+        font-size: 20px;
+    }
+
+    nav a {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+    .bn632-hover, .logo-icon-hover {
+        width: 140px;
+        font-size: 16px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo {
+        height: 30px;
+        width: 35px;
+    }
+
+    .logo-icon {
+        height: 20px;
+        width: 20px;
+        margin-right: 6px;
+    }
+
+    header span {
+        font-size: 18px;
+    }
+
+    nav a {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .bn632-hover, .logo-icon-hover {
+        width: 120px;
+        font-size: 14px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    #logo {
+        height: 25px;
+        width: 30px;
+    }
+
+    .logo-icon {
+        height: 18px;
+        width: 18px;
+        margin-right: 4px;
+    }
+
+    header span {
+        font-size: 16px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav a {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .bn632-hover, .logo-icon-hover {
+        width: 100px;
+        font-size: 12px;
+        height: 30px;
+    }
+}

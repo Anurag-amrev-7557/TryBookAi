@@ -1,0 +1,152 @@
+.hero {
+    padding: 80px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    color: #F1FAEE; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.roller {
+    width: 15rem;
+    height: 3.325rem;
+    line-height: 2.125rem; 
+    position: relative;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d1dceb;
+    margin: 0 0.8rem 0 0.3rem;
+}
+
+
+
+.roller #rolltext {
+    position: absolute;
+    padding-top: 10px;
+    top: 0;
+    animation: slide 5s infinite;
+    animation-delay: 0.5s;
+    left: 1rem; 
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-4.3rem); 
+    }
+    50% {
+        transform: translateY(-8.5rem); 
+    }
+    75% {
+        transform: translateY(-12.9rem);
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+
+.subtitle {
+    font-size: 17px;
+    margin: 0 270px 40px;
+    color: #bbb8ba;
+    letter-spacing: 1.15px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1024px) {
+    .hero {
+        padding: 60px 0 0 0;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .roller {
+        width: 12rem;
+        height: 2.5rem;
+        line-height: 2.5rem; 
+    }
+
+    .roller #rolltext {
+        animation: slide 5s infinite;
+        animation-delay: 1s;
+    }
+
+    .subtitle {
+        font-size: 15px;
+        margin: 0 20px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .roller {
+        width: 10rem;
+        height: 2rem;
+        line-height: 2rem;
+    }
+
+    .roller #rolltext {
+        height: 8rem;
+    }
+
+    .subtitle {
+        font-size: 13px;
+        margin: 0 10px 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+        margin: 0 0 10px 0;
+    }
+
+    .roller {
+        width: 8rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .roller #rolltext {
+        height: 6rem;
+    }
+
+    .subtitle {
+        font-size: 11px;
+        margin: 0 5px 20px;
+    }
+}
+

@@ -1,0 +1,87 @@
+.newsletter {
+    margin-top: 40px; 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#subscribe {
+    width: 100%; 
+    max-width: 200px; 
+    margin-left: 0; 
+    margin-top: 10px; 
+}
+
+.input {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+}
+
+.standard-basic {
+    color: white;
+    width: 90%; 
+    max-width: 400px; 
+}
+
+.custom-textfield .MuiInputBase-input::placeholder {
+    color: white;
+}
+
+.custom-textfield .MuiInput-underline:before {
+    border-bottom: 1px solid white;
+}
+
+.custom-textfield .MuiInput-underline:after {
+    border-bottom: 2px solid white;
+}
+
+.custom-textfield .MuiInputLabel-root {
+    color: white;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .newsletter {
+        padding: 20px; /* Adjust padding for medium screens */
+    }
+
+    #subscribe {
+        width: 100%; /* Full width on smaller screens */
+        max-width: 180px; /* Adjust maximum width */
+    }
+
+    .input {
+        flex-direction: row; /* Stack vertically on medium screens */
+    }
+
+    .standard-basic {
+        width: 90%; /* Full width on smaller screens */
+        max-width: 300px; /* Adjust maximum width */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .newsletter {
+        padding: 15px; /* Minimal padding on small screens */
+    }
+
+    #subscribe {
+        width: 100%; /* Full width on small screens */
+        max-width: 160px; /* Adjust maximum width */
+    }
+
+    .input {
+        flex-direction: row; /* Stack vertically on small screens */
+    }
+
+    .standard-basic {
+        width: 90%; /* Full width on small screens */
+        max-width: 250px; /* Adjust maximum width */
+    }
+}
