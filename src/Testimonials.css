@@ -66,10 +66,16 @@ h2 {
 
     h2 {
         font-size: 1.25rem; 
+        margin-bottom: 0.5rem;
     }
 
     .testimonial {
-        font-size: 0.9rem;
+        font-size: 0.5rem;
         padding: 10px;
+    }
+
+    .testimonial-container{
+        transform: scale(0.9);
+        margin-top: 0;
     }
 }
