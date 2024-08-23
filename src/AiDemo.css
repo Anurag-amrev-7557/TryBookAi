@@ -130,26 +130,34 @@
         margin-bottom: 3rem;
     }
 
+    .ai-demo > img {
+        height: 13rem;
+        width: 26rem;
+    }
+
     .floating-ui-top-left {
         width: 80px;
         height: 90px;
-        top: 0.5em;
-        left: 0.5em;
+        top: -1em;
+        left: -1em;
+        transform: scale(0.8);
     }
 
     .floating-ui-top-left img {
         width: 30px;
         height: 45px;
+        transform: scale(2.3);
+        border-radius: 0.4rem;
     }
 
     .floating-ui-bottom-right {
-        width: 60px;
-        height: 70px;
-        bottom: 0.5em;
-        right: 0.5em;
+        width: 90px;
+        height: 20px;
+        bottom: -1em;
+        right: -0.5em;
     }
 
     .floating-ui-bottom-right span {
-        font-size: 10px;
+        font-size: 11px;
     }
 }
