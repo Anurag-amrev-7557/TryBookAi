@@ -100,18 +100,29 @@ p {
 
 @media screen and (max-width: 480px) {
     .samples {
-        padding: 10px;
+        display: flex;
+        flex-direction: column;
     }
 
-    h2 {
-        font-size: 1.25rem; 
+    .sample-container{
+        display: flex;
+        flex-direction: column;
     }
 
     .book-sample p {
-        font-size: 0.8rem; 
+        display: none;
     }
 
     .cover-page {
         max-width: 140px; 
+    }
+
+    .book-sample a {
+        margin-top: 0;
+        font-size: 0.8rem;
+    }
+
+    h3 {
+        margin: 0.5rem 0;
     }
 }

@@ -25,7 +25,7 @@ export default function Section() {
             <a href="/"><button class="bn632-hover bn26" id="login" style={{height: "49px"}}>Get Started</button></a>
             <a href="/"><button class="bn632-hover bn26" id="login" style={{height: "49px"}}>Get API Access</button></a>
             </div>
-            <p style={{color: "#b3ac48", marginTop: "3rem"}}>Attention:TryBookAI has been acquired by Indicus AI. Indicus LLM will be used for text and image generation</p>
+            <p style={{color: "#b3ac48", marginTop: "3rem"}} id="attention">Attention:TryBookAI has been acquired by Indicus AI. Indicus LLM will be used for text and image generation</p>
         </section>
     )
 }

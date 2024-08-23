@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     margin-top: 80px;
-    padding: 40px;
 }
 
 h2 {
@@ -21,9 +20,11 @@ h2 {
 }
 
 .step-container {
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
 }
 
 .step a {
@@ -37,4 +38,49 @@ h2 {
 
 .step-content p {
     width: 28.125rem;
+}
+
+@media screen and (min-width: 681px) {
+    .feature {
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .step-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px; 
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .step {
+        width: 270px;
+        height: 139.04px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .step-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 20%;
+    }
+
+    .step-content p {
+        font-size: 12px;
+    }
+
+    .step-content h3 {
+        font-size: 18.72px;
+    }
+
+    .feature{
+        margin-right: 0;
+    }
 }

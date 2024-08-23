@@ -38,7 +38,9 @@ h1 {
     margin: 0 0.8rem 0 0.3rem;
 }
 
-
+#attention {
+    text-align: center;
+}
 
 .roller #rolltext {
     position: absolute;
