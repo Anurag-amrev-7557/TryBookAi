@@ -68,6 +68,7 @@
 @media screen and (max-width: 480px) {
     .newsletter {
         padding: 15px; 
+        transform: scale(0.9);
     }
 
     #subscribe {
