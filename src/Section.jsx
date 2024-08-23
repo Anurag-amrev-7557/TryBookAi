@@ -21,7 +21,7 @@ export default function Section() {
                 <p>Unleash the power of AI to create captivating books in minutes.</p>
                 <p>Download, Distribute wherever you want. Generate unlimited free books</p>
             </div>
-            <div>
+            <div id="getstarted">
             <a href="/"><button class="bn632-hover bn26" id="login" style={{height: "49px"}}>Get Started</button></a>
             <a href="/"><button class="bn632-hover bn26" id="login" style={{height: "49px"}}>Get API Access</button></a>
             </div>
