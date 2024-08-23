@@ -8,10 +8,6 @@
     font-size: 14px; 
 }
 
-.footer p {
-    margin-bottom: 1rem;
-}
-
 .links {
     display: flex;
     flex-wrap: wrap; 
