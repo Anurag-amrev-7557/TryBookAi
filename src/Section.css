@@ -46,7 +46,7 @@ h1 {
     position: absolute;
     padding-top: 10px;
     top: 0;
-    animation: slide 5s infinite;
+    animation: slide2 10s infinite;
     animation-delay: 0.5s;
     left: 1rem; 
 }
@@ -69,6 +69,20 @@ h1 {
     }
 }
 
+@keyframes slide2 {
+    0% {transform: translateY(-0.6rem);} 
+    10% {transform: translateY(-0.6rem);} 
+    20% {transform: translateY(-3.5rem);} 
+    30% {transform: translateY(-6.4rem);} 
+    40% {transform: translateY(-9.785rem);} 
+    50% {transform: translateY(-0.6rem);} 
+    60% {transform: translateY(-0.6rem);} 
+    70% {transform: translateY(-0.6rem);} 
+    80% {transform: translateY(-3.5rem);} 
+    90% {transform: translateY(-6.4rem);} 
+    100% {transform: translateY(-0.6rem);}
+}
+
 .subtitle {
     font-size: 17px;
     margin: 0 270px 40px;
@@ -78,7 +92,7 @@ h1 {
     line-height: 1.5rem;
 }
 
-/* Responsive styles */
+
 @media screen and (max-width: 1024px) {
     .hero {
         padding: 60px 0 0 0;
@@ -143,7 +157,8 @@ h1 {
     }
 
     .roller #rolltext {
-        height: 6rem;
+        animation: slide2 10s infinite;
+        height: 10rem;
     }
 
     .subtitle {
