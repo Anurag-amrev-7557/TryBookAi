@@ -172,6 +172,10 @@ h1 {
         margin: 0 5px 20px;
     }
 
+    .subtitle p {
+        font-size: 14px;
+    }
+
     #getstarted a button{
         font-size: 14px;
         width: 8rem;
@@ -179,11 +183,7 @@ h1 {
     }
 
     #attention {
-        font-size: 14px;
-    }
-
-    h1 {
-        width: 100%;
+        font-size: 12px;
     }
 
     .container {
