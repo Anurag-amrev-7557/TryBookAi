@@ -152,8 +152,9 @@
 
 @media screen and (max-width: 480px) {
     #heading {
-        font-size: 25px;
+        font-size: 20px;
         margin: 0 0 10px 0;
+        transform: scale(1.05);
     }
 
     .roller {
