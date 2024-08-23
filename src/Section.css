@@ -177,5 +177,9 @@ h1 {
         width: 8rem;
         height: 2.7rem;
     }
+
+    #attention {
+        font-size: 14px;
+    }
 }
 
