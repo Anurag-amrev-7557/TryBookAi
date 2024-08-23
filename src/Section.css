@@ -168,12 +168,8 @@ h1 {
     }
 
     .subtitle {
-        font-size: 8px;
-        margin: 0 5px 20px;
-    }
-
-    .subtitle p {
         font-size: 11px;
+        margin: 0 5px 20px;
     }
 
     #getstarted a button{
@@ -183,7 +179,15 @@ h1 {
     }
 
     #attention {
-        font-size: 12px;
+        font-size: 14px;
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    .container {
+        padding: 10px;
     }
 }
 
