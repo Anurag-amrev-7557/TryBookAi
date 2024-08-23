@@ -173,6 +173,10 @@
         margin: 0 5px 20px;
     }
 
+    .subtitle p {
+        font-size: 14px;
+    }
+
     #getstarted a button{
         font-size: 14px;
         width: 8rem;
