@@ -4,7 +4,7 @@ export default function Section() {
     return (
         <section className="hero">
             <div class="main">
-                <h1>Explore the Possibilities of 
+                <span id="heading">Explore the Possibilities of 
                     <div class="roller" style={{display: "inline-block"}}>
                         <i>
                         <span id="rolltext">Curiosity<br/><br />
@@ -15,7 +15,7 @@ export default function Section() {
                         </i>
                     </div>
                      with BookAI
-                </h1>
+                </span>
             </div>
             <div className="subtitle">
                 <p>Unleash the power of AI to create captivating books in minutes.</p>
