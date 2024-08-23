@@ -25,6 +25,12 @@ h1 {
     text-align: center;
 }
 
+#getstarted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .roller {
     width: 15rem;
     height: 3.325rem;
