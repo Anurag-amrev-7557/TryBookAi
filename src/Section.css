@@ -171,5 +171,11 @@ h1 {
         font-size: 11px;
         margin: 0 5px 20px;
     }
+
+    #getstarted a button{
+        font-size: 14px;
+        width: 8rem;
+        height: 2.7rem;
+    }
 }
 
