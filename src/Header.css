@@ -183,8 +183,8 @@ nav a:hover {
     }
 
     .logo-icon {
-        height: 5px;
-        width: 5px;
+        height: 16px;
+        width: 16px;
         margin-right: 4px;
     }
 
@@ -210,4 +210,9 @@ nav a:hover {
 
     .logo {
         transform: scale(1.1);
+    }
+
+    .logo-icon {
+        display: none;
+    }
 }
