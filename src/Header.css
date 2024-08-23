@@ -215,4 +215,8 @@ nav a:hover {
     .logo-icon {
         display: none;
     }
+
+    .navbar-toggler-icon {
+        font-size: 1.3rem;
+    }
 }
