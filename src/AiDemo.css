@@ -98,29 +98,36 @@
 @media screen and (max-width: 768px) {
     .ai-demo {
         padding: 10px;
+        margin-bottom: 3rem;
+    }
+
+    .ai-demo > img {
+        height: 25rem;
+        width: 38rem;
     }
 
     .floating-ui-top-left {
         width: 100px;
         height: 110px;
-        top: 0.5em;
-        left: 0.5em;
+        top: -1rem;
+        left: -1rem;
     }
 
     .floating-ui-top-left img {
         width: 40px;
         height: 60px;
+        transform: scale(1.7);
     }
 
     .floating-ui-bottom-right {
-        width: 80px;
-        height: 90px;
-        bottom: 0.5em;
-        right: 0.5em;
+        width: 160px;
+        height: 35px;
+        bottom: -0.5em;
+        right: -0.5em;
     }
 
     .floating-ui-bottom-right span {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
