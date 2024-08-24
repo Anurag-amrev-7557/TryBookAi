@@ -111,70 +111,72 @@
     }
 
     .ai-demo > img {
-        height: 25rem;
-        width: 38rem;
+        scale: 1.45;
     }
 
     .floating-ui-top-left {
         width: 100px;
         height: 110px;
-        top: -1rem;
-        left: -1rem;
+        top: -3.5rem;
+        left: -3rem;
     }
 
     .floating-ui-top-left img {
         width: 40px;
         height: 60px;
-        transform: scale(1.7);
+        transform: scale(1.5);
     }
 
     .floating-ui-bottom-right {
         width: 160px;
         height: 35px;
-        bottom: -0.5em;
-        right: -0.5em;
+        bottom: -3rem;
+        right: -3rem;
+        scale: 0.9;
     }
 
     .floating-ui-bottom-right span {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
 @media screen and (min-width: 480px) and (max-width: 680px) {
     .ai-demo {
         padding: 5px;
-        margin-bottom: 3rem;
+        margin-bottom: 6rem;
     }
 
     .ai-demo > img {
         height: 13rem;
         width: 26rem;
+        scale: 1.35;
     }
 
     .floating-ui-top-left {
         width: 80px;
         height: 90px;
-        top: -1em;
-        left: -1em;
+        top: -3rem;
+        left: -4rem;
         transform: scale(0.8);
     }
 
     .floating-ui-top-left img {
         width: 30px;
         height: 45px;
-        transform: scale(2.3);
+        transform: scale(1.7);
         border-radius: 0.4rem;
     }
 
     .floating-ui-bottom-right {
-        width: 90px;
-        height: 20px;
-        bottom: -1em;
-        right: -0.5em;
+        width: 150px;
+        height: 18px;
+        bottom: -3rem;
+        right: -3.5rem;
+        border-radius: 0.5rem;
     }
 
     .floating-ui-bottom-right span {
-        font-size: 11px;
+        font-size: 13px;
     }
 }
 
@@ -187,28 +189,29 @@
     .ai-demo > img {
         height: 13rem;
         width: 26rem;
+        scale: 1.05;
     }
 
     .floating-ui-top-left {
         width: 80px;
         height: 90px;
-        top: -1em;
-        left: -1em;
-        transform: scale(0.8);
+        top: -2rem;
+        left: -2rem;
+        transform: scale(0.55);
     }
 
     .floating-ui-top-left img {
         width: 30px;
         height: 45px;
-        transform: scale(2.3);
+        transform: scale(1.85);
         border-radius: 0.4rem;
     }
 
     .floating-ui-bottom-right {
         width: 90px;
         height: 20px;
-        bottom: -1em;
-        right: -0.5em;
+        bottom: -1rem;
+        right: -1rem;
     }
 
     .floating-ui-bottom-right span {
