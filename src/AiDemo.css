@@ -69,6 +69,7 @@
 @media screen and (max-width: 1024px) {
     .ai-demo {
         padding: 20px;
+        margin-bottom: 3rem;
     }
 
     .floating-ui-top-left {
@@ -91,7 +92,7 @@
     }
 
     .floating-ui-bottom-right span {
-        font-size: 13px;
+        font-size: 15px;
     }
 }
 
