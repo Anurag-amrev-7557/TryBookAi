@@ -23,7 +23,7 @@ export default function Section() {
             </div>
             <div id="getstarted">
             <a href="/"><button class="bn632-hover bn26" id="login">Get Started</button></a>
-            <a href="/"><button class="bn632-hover bn26" id="login2">Get API Access</button></a>
+            <a href="/"><button class="bn632-hover bn26" id="login">Get API Access</button></a>
             </div>
             <p style={{color: "#b3ac48", marginTop: "3rem"}} id="attention">Attention:TryBookAI has been acquired by Indicus AI. Indicus LLM will be used for text and image generation</p>
         </section>
