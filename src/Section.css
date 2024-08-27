@@ -156,10 +156,6 @@
         margin: 0 0 10px 0;
         transform: scale(1.05);
     }
-    
-    #login { 
-        font-size: 3.5rem;
-    }
 
     .roller {
         width: 8rem;
