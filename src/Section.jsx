@@ -18,7 +18,7 @@ export default function Section() {
                 </span>
             </div>
             <div className="subtitle">
-                <p>Unleash the power of AI to create captivating books in minutes.Download, Distribute wherever you want. Generate unlimited free books</p>
+                <p>Unleash the power of AI to create captivating books in minutes.Download, Distribute wherever you want</p>
             </div>
             <div id="getstarted">
             <a href="/"><button class="bn632-hover bn26" id="login">Get Started</button></a>
