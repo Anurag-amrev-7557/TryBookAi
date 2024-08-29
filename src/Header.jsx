@@ -7,7 +7,7 @@ export default function Header() {
             <div className="logo">
                 <div className="logo-icon-hover logo-icon" style={{width: "30px", height: "30px"}}></div>
                 <img src="/logo.png" id="logo" alt="bookai-logo"></img>
-                <span>BookAI</span>
+                <a href="/">BookAI</a>
             </div>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
