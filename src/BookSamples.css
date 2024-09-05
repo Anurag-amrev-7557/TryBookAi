@@ -109,17 +109,24 @@ p {
         flex-direction: column;
     }
 
+    .book-sample {
+        background-color: rgba(255,255,255, 0.05);
+        border-radius: 1rem;
+        box-shadow: rgb(0, 0, 0) 0px 20px 30px -15px;
+    }
+
     .book-sample p {
         display: none;
     }
 
     .cover-page {
-        max-width: 140px; 
+        max-width: 140px;
     }
 
     .book-sample a {
         margin-top: 0;
         font-size: 0.8rem;
+        transition: all 0.3s ease;
     }
 
     h3 {
