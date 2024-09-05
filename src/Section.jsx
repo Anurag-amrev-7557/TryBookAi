@@ -1,5 +1,4 @@
 import "./Section.css";
-import "./Section.js";
 
 export default function Section() {
     return (
