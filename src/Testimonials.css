@@ -28,14 +28,17 @@ h2 {
     max-width: calc(33.333% - 20px); 
     box-sizing: border-box; 
     transition: transform 0.3s ease;
+    background-color: rgba(255,255,255, 0.1);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -15px;
 }
 
-/* Hover Effect */
 .testimonial:hover {
     transform: translateY(-5px); 
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -20px;
 }
 
-/* Responsive adjustments */
 @media screen and (max-width: 1024px) {
     .testimonial {
         max-width: calc(50% - 20px);
