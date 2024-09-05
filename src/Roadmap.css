@@ -21,6 +21,7 @@
     justify-items: center;
     align-items: center;
     margin-right: 1.5rem;
+    pointer-events: none;
 }
 
 h2 {

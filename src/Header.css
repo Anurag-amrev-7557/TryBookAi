@@ -1,6 +1,7 @@
 #logo {
     height: 43px; 
     width: 50px;
+    pointer-events: none;
 }
 
 .logo-icon {
@@ -9,6 +10,7 @@
     border-radius: 50%;
     background-color: #042D92;
     margin-right: 10px;
+    pointer-events: none;
 }
 
 .logo {
