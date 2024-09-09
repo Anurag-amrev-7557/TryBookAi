@@ -42,13 +42,9 @@ You can visit the live version of the website here: [TryBook AI](https://try-boo
 
 5. Open the project in your browser:
     ```
-    http://localhost:3000
+    http://localhost:5137
     ```
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for suggestions and improvements.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
